@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // ts 컴파일러가 변환할 자바스크립트 표준
+    "target": "es2019",
+    // 모듈방식 nodejs 표준에서 정상 동작을 위해 commonjs 이용
+    "module": "commonjs",
+    // 여러자바스크립트 모듈 사양의 상호 호환을 위해 옵션, 다양한 라이브러리를 사용할 때 켜두면 좋음
+    "esModuleInterop": true,
+    // 대소문자를 가리지 않는 파일시스템을 위한것, 보통 윈도우 사용자 때문에 옵션을 켜둠
+    "forceConsistentCasingInFileNames": true,
+    // 잘못 작성한 코드 정적 검사
+    "strict": true,
+    // 외부패키지 타입 검사 실행 skip 여부, 개발시에는 컵퓨터 자원을 위해 켜두면 좋음
+    "skipLibCheck": true
+  }
+}
